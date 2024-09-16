@@ -22,6 +22,7 @@ Testing the server and client
 ## PROGRAM:
 ## CLIENT
 ``
+
 import socket
 
 
@@ -37,7 +38,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
 print(f"Received {data!r}")
 ``
+
 ## SERVER
+
 ``
 import socket
 
